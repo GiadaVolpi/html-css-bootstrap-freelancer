@@ -69,11 +69,11 @@ header ul.list-inline li {
     margin: 100px 0;
 }
 
-#portfolio h2 {
+#portfolio h2, #contact-me h2 {
     color: #2c3e50;
 }
 
-#portfolio h2, #about h2 {
+#portfolio h2, #about h2, #contact-me h2 {
     font-weight: 800;
     font-size: 45px;
 }
@@ -96,24 +96,53 @@ header ul.list-inline li {
 #about p {
     font-size: 20px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 35px;
 }
 
-.btn {
+.btn-lg {
     background-color: #1abc9c;
-    font-size: 20px;
-    padding: 15px 25px;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
-.btn.btn-about {
-    margin: 0 auto;
+.btn-lg.btn-about {
     border: 2px solid white;
 }
 
 .fas.fa-download {
     margin-right: 10px;
 }
+/*** fine ABOUT ***/
+
+/*** CONTACT ME ***/
+
+#contact-me {
+    margin: 100px 0;
+}
+
+#contact-me .input-lg {
+    border: none;
+    font-size: 25px;
+}
+
+#contact-me .input-lg {
+    border-bottom: 1px solid rgba(219, 219, 219, 0.6);
+    width: 100%;
+}
+
+#contact-me input:not(#last-input) {
+    padding: 50px 0;
+}
+
+#last-input {
+    padding: 50px 0 150px 0;
+}
+
+.btn-lg.btn-contact {
+    border: none;
+}
+
+
+
 
 @media screen and (min-width: 991px) {
 
